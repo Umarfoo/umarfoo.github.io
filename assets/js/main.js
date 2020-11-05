@@ -143,7 +143,4 @@ $(function ($) {
     preLoder.addClass('hide');
   });
 
-
-
-
 });
