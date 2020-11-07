@@ -96,17 +96,15 @@ p {
 }
 
 a {
-  color: #ffffff;
+  color: #131333;
   text-decoration: none;
 }
-
 a,
 a:hover,
 a:focus,
 a:active {
   text-decoration: none;
   outline: none;
-  color: #4285F4 !important;
 }
 
 a i {
@@ -140,11 +138,6 @@ ul li {
   width:auto;
   max-width: 400px;
   margin: 0 auto; 
-}
-
-.margin-top-bottom {
-margin-top: 29px;
-margin-bottom: 22px;
 }
 
 /* 
@@ -1315,11 +1308,11 @@ select:focus {
 }
 
 .about-area .about-content .info-list li .value a {
-  color: #555;
+  color: #ffffff;
 }
 
-a {
-  color: #ffffff !important;
+.about-area .about-content .info-list li .value a:hover {
+  color: #4c84ff;
 }
 
 .about-area .mybtn {
@@ -2205,8 +2198,13 @@ Portfolio Start
   line-height: 40px;
 }
 .ajax-container .project-details-info .info-list li a{
-  color: #fff;
+  color: #94a2c7;
 }
+
+.ajax-container .project-details-info .info-list li a:hover{
+  color: #4c84ff;
+}
+
 .ajax-container .project-details-info .info-list li span{
   color: #94A2C7;
   font-weight: 600;
@@ -2579,6 +2577,16 @@ textarea.form-control {
 .single-info p {
   margin-bottom: 0;
   color: #94a2c6;
+}
+
+.single-info a {
+  margin-bottom: 0;
+  color: #94a2c6;
+}
+
+.single-info a:hover {
+  margin-bottom: 0;
+  color: #4c84ff;
 }
 
 
