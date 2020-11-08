@@ -2589,6 +2589,10 @@ textarea.form-control {
   color: #4c84ff;
 }
 
+.margin-top-bottom{
+  margin-top: 25px;
+  margin-bottom: 24px;
+}
 
 /*================================================
 CONTACT INFO AREA End
