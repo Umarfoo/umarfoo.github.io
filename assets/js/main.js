@@ -41,7 +41,7 @@ $(function ($) {
     var $typed = $("#typed");
     if ($typed.length > 0) {
       $typed.typed({
-        strings: ["Data Analysis", "Web Development", "Business Analysis", "Data Visualisation"],
+        strings: ["Data Analysis", "Web Development", "Business Analysis", "Data Visualisation", "Marketing Analysis"],
         stringsElement: null,
         typeSpeed: 70,
         startDelay: 150,
